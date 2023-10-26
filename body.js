@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
 fixture `TestCafe Smoke Test`
-    .page `http://localhost:8080`; // Asegúrate de reemplazar con tu URL local
+    .page `https://www.youtube.com/`; // Asegúrate de reemplazar con tu URL local
 
 test('TestCafe is Working Properly', async t => {
     // Agrega aquí tu lógica de prueba
